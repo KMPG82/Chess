@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+.board {
+    color: black;
+    height: 800px;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    border: solid;
+}
