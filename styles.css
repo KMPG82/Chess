@@ -2,17 +2,53 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
 .board {
     color: black;
     height: 800px;
     width: 800px;
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
 }
 
 .square {
     width: 100px;
     height: 100px;
-    background-color: blueviolet;
-    border: solid;
+}
+
+.brownSquare {
+    background-color: rgb(209, 209, 209);
+}
+
+.blackSquare {
+    background-color: rgb(58, 58, 58);
+}
+
+.gamePiece {
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamePiece svg {
+    height: 50px;
+    width: 50px;
+}
+
+.blackPiece {
+    fill: black;
+}
+
+.whitePiece {
+    fill: white;
 }
